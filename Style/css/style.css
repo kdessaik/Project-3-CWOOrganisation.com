@@ -8,12 +8,26 @@
     display: flex;
     flex-direction: row;
     }
+    
 #section1 a{
     text-decoration: none;
     color: rgb(28, 61, 251);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 1%;
     font-weight: bold;
+}
+.section1 h1{
+    color: green;
+}
+
+#section1 a:hover{
+   
+    text-decoration: underline;
+    color: rgb(251, 145, 15);
+
+    
+    
+    
 }
 
 #section1{
@@ -29,14 +43,88 @@ float: left;
 width: 15%;
 margin-left: 2%;
 }
-#section1 a:hover{
-    opacity: 0.6;
+
+#first-photo{
+    width: 150%;
+    height: 460px;
+    margin-left: -11%;
+}
+#first-logo{
+    position:absolute;
+    top: 20%;
+    width: 70%;
+}
+#element1{
+    position: relative;
+    top: -1000px;
+    left: 55%;
+    width: 50%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
     
 }
 #first-photo{
-    width: 145%;
-    height: 450px;
-    margin-left: -11%;
+    opacity: 0.6;
 }
-first-logo
+#contain{
+text-transform: uppercase;
+
+}
+.container-lg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(251, 145, 15);
+    margin: 2%;
+    margin-left: 3%;
+    width: 90%;
+    height: 500px;
+    padding: 2%;
+    border-radius: 2%;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.photoDescription{
+    width: 70%;
+    height: 200px;
+}
+.Description h2{
+  color:   rgb(28, 61, 251);
+text-transform: uppercase;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+border-bottom: 1px dotted rgb(235, 232, 232);
+margin-bottom: 5%;
+font-size: 30px;
+}
+.Description p{
+    font-size: 25px;
+    width: 80%;
+    color: white;
+}
+.col-sm{
+    padding: 5%;
+
+
+}
+.col-sm img{
+    width: 70%;
+    border-radius: 20%;
+}
+
+.col-sm h2{
+    margin-top: 0%;
+    margin: 5%;
+}
+.col-sm p{
+    width: 80%;
+    margin-left: 10%;
+}
+.row .col-sm:hover{
+    background-color: rgb(251, 145, 15);
+    border-radius: 20%;
+    color: white;
+
+}
 
