@@ -1,6 +1,13 @@
 *{
     width: 100%;
 }
+.container{
+    margin-top: 10%;
+}
+.fixed-top{
+    background-color: white;
+    height: 100px;
+}
 .navbar-brand{
     margin-left: 0%;
 }
