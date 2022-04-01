@@ -1,6 +1,7 @@
 *{
     width: 100%;
 }
+
 .container{
     margin-top: 10%;
 }
@@ -207,5 +208,29 @@ footer{
     height: 400px;
 }
 
+    
+@media only screen and (max-width: 500px) {
+
+#section1 a{
+    display: none;
+}
+
+.navbar-brand img{
+    
+    width: 300px;
+}
+.navbar-brand{
+    position: relative;
+    left: 100px;
+}
+#first-logo{
+    display: none;
+}
+#first-photo{
+    opacity: 1;
+    margin-bottom: 10%;
+}
+
+}
 
 
