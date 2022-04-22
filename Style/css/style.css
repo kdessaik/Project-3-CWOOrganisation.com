@@ -1,3 +1,321 @@
+
+
+@media only screen and (max-width: 800px) and (min-width:10px){
+    #nav-bar{
+        display: none;
+    }
+#NavBarPhoneimage>img{
+       width: 70%; 
+       margin-left: 20%;
+    }
+    .navbar-toggler-icon{
+        
+    }
+    .navbar-toggler{
+        border: none;
+        
+        
+    }
+    .navbar-toggler-icon{
+        margin-left: 10px;
+        margin-top: -150px;
+        width: 40px;
+        height: 100px;
+
+    }
+    .close{
+        text-align: center;
+       color: blue;
+       font-weight: bold;
+       font-size: 30px;
+       border: #262626 ;
+       margin-top: -100px;
+       margin-left: 1%;
+       background-color: #ced4da;
+       width: 10%;
+       border-radius: 20%;
+       
+    }
+
+    #section3{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        
+
+        
+    }
+    #section3 a{
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 5%;
+        
+    }
+    .bg-light{
+        margin-bottom: 200px;
+    }
+
+
+
+
+
+    *{
+        width: 100%;
+    }
+    
+    .container{
+        margin-top: 10%;
+    }
+    .fixed-top{
+        background-color: white;
+        height: 100px;
+    }
+    .navbar-brand{
+        margin-left: 0%;
+    }
+    
+        
+    #section1 a{
+        text-decoration: none;
+        color: rgb(28, 61, 251);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 1%;
+        font-weight: bold;
+    }
+    .section1 h1{
+        color: green;
+    }
+    
+    #section1 a:hover{
+       
+        text-decoration: underline;
+        color: rgb(251, 145, 15);
+    
+        
+        
+        
+    }
+    
+    #section1{
+        position: relative;
+        left: 20%;
+        width: 100%;
+        top: -70px;
+        float: right;
+        margin-left: 2%;
+    }
+    #btnLogo1{
+    float: left;
+    width: 11%;
+    margin-left: 2%;
+    
+    }
+    
+    #first-photo{
+        position: relative;
+        width: 109%;
+        height: 220px;
+        top: -197px;
+        left: -5%;
+        
+    }
+    #first-logo{
+        display: none;
+    }
+    #first-logo1{
+        position:absolute;
+        top: 25%;
+        width: 105%;
+        left: -3%;
+        
+    }
+    #element1{
+        position: relative;
+        top: -1000px;
+        left: 55%;
+        width: 50%;
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        
+    }
+    #first-photo{
+        opacity: 0.6;
+    }
+    #contain{
+    text-transform: uppercase;
+    
+    }
+    .container-lg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: rgb(251, 145, 15);
+        margin: 2%;
+        margin-left: 3%;
+        width: 90%;
+        height: 600px;
+        padding: 2%;
+        border-radius: 2%;
+        box-shadow: 5px 10px 8px 10px #888888;
+    }
+    .photoDescription{
+        width: 70%;
+        height: 100px;
+    }
+    .Description h2{
+      color:   rgb(28, 61, 251);
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 1px dotted rgb(235, 232, 232);
+    margin-bottom: 5%;
+    font-size: 30px;
+    }
+    .Description p{
+        font-size: 25px;
+        width: 80%;
+        color: white;
+    }
+    .col-sm{
+        padding: 5%;
+    
+    
+    }
+    .col-sm img{
+        width: 70%;
+        border-radius: 20%;
+    }
+    
+    .col-sm h2{
+        margin-top: 0%;
+        margin: 5%;
+    }
+    .col-sm p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .row .col-sm:hover{
+        background-color: rgb(251, 145, 15);
+        border-radius: 20%;
+        color: white;
+    
+    }
+    #section2{
+        border: 1px solid black;
+    
+    }
+    #section2 img{
+        width: 30%;
+    }
+    .colunm{
+        display: flex;
+        flex-direction: row;
+    }
+    #section2:hover{
+        color: rgb(251, 145, 15);
+        box-shadow: 5px 10px 8px 10px rgb(251, 145, 15);;
+        
+    }
+    #section2 h1:hover{
+        font-size: 50px;
+    }
+    .colunm img:hover{
+        background-color: rgb(251, 145, 15);
+        box-shadow: 5px 10px 8px 10px rgb(251, 145, 15);
+        margin: 1%;
+        cursor:pointer;
+    }
+    .photoDescription img{
+        width: 100%;
+        height: 450px
+    }
+    .container-lg{
+        display:block;
+        position: relative;
+        top:-150px
+    }
+
+    .photoDescription{
+        
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+    
+    
+    .container-fluid {
+        overflow: hidden;
+        margin-top: 250px;
+        background: #262626;
+        color: #627482 !important;
+        margin-bottom: 0;
+        padding-bottom: 0
+    }
+    
+    small {
+        font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+    }
+    
+    .bold-text {
+        color: #989c9e !important
+    }
+    
+    .mt-55 {
+        margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+    }
+    
+    h3 {
+        font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+    }
+    
+    .social {
+        font-size: 21px !important
+    }
+    
+    .rights {
+        font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+    }
+    footer{
+        background-color: #627482;
+        height: 400px;
+    }
+    
+    #photoWidos{
+        position: inherit;
+        bottom: 300px;
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        border-radius: 15%;
+    }
+    .Description>p{
+        font-size: 16px;
+        text-align: center;
+        margin-left: 7%;
+    } 
+    .container-lg{
+        margin-bottom:0px;
+        background-color: #262626;
+        
+    }
+    .Description>h2{
+        text-align: center;
+
+    }
+    
+
+
+}
+
+
+
+@media screen and (max-width: 5000px)and (min-width:801px) {
+ 
+    #Navphone1{
+        display: none;
+    }
 *{
     width: 100%;
 }
@@ -15,6 +333,9 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
+    }
+    #first-logo1{
+        display: none;
     }
     
 #section1 a{
@@ -60,7 +381,7 @@ margin-left: 2%;
 }
 #first-logo{
     position:absolute;
-    top: 10%;
+    top: 0%;
     width: 70%;
     
 }
@@ -89,6 +410,7 @@ text-transform: uppercase;
     background-color: rgb(251, 145, 15);
     margin: 2%;
     margin-left: 3%;
+    margin-bottom: 100px;
     width: 90%;
     height: 500px;
     padding: 2%;
@@ -208,29 +530,7 @@ footer{
     height: 400px;
 }
 
+
     
-@media only screen and (max-width: 500px) {
-
-#section1 a{
-    display: none;
-}
-
-.navbar-brand img{
-    
-    width: 300px;
-}
-.navbar-brand{
-    position: relative;
-    left: 100px;
-}
-#first-logo{
-    display: none;
-}
-#first-photo{
-    opacity: 1;
-    margin-bottom: 10%;
-}
 
 }
-
-
