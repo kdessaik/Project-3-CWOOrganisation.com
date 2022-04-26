@@ -237,6 +237,21 @@
         position: relative;
         top:-150px
     }
+    #mpesa{
+        width: 10%;
+        height: 2%;
+        border-radius: 50%;
+    }
+    #Equity{
+        width: 10%;
+        height: 2%;
+        border-radius: 50%;
+    }
+    #Paypal{
+        width: 10%;
+        height: 2%;
+        border-radius: 35%;
+    }
 
     .photoDescription{
         
@@ -528,6 +543,21 @@ h3 {
 footer{
     background-color: #627482;
     height: 400px;
+}
+#mpesa{
+    width: 10%;
+    height: 2%;
+    border-radius: 50%;
+}
+#Equity{
+    width: 10%;
+    height: 2%;
+    border-radius: 50%;
+}
+#Paypal{
+    width: 10%;
+    height: 2%;
+    border-radius: 50%;
 }
 
 
