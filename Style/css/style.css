@@ -390,15 +390,50 @@ margin-left: 2%;
 }
 
 #first-photo{
-    width: 150%;
-    height: 460px;
-    margin-left: -11%;
+    position: relative;
+    right: 200px;
+    bottom: 750px;
+    width: 1700px;
+    height: 800px;
+
 }
 #first-logo{
-    position:absolute;
-    top: 0%;
-    width: 70%;
+    position: relative;
+    bottom: 1500px;
+    left: 100px;
+    width: 100%;
     
+}
+
+.btn1{
+    position: relative;
+    top: 0px;
+    left: 750px;
+    color: blue;
+    border: none;
+    background-color: transparent;
+    font-size: 200px;
+    font-weight: 500px;
+}
+.btn1:hover{
+    cursor: pointer;
+   
+    color: rgb(212, 159, 11);
+}
+.btn2{
+   position: relative;
+    bottom: 300px;
+    right:750px;
+    color: blue;
+    border: none;
+    background-color: transparent;
+    font-size: 200px;
+    font-weight: 500px;
+}
+.btn2:hover{
+    cursor: pointer;
+  
+    color: rgb(212, 159, 11);
 }
 #element1{
     position: relative;
@@ -558,6 +593,10 @@ footer{
     width: 10%;
     height: 2%;
     border-radius: 50%;
+}
+.container-lg{
+    position: relative;
+    bottom: 400px;
 }
 
 
