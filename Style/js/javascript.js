@@ -37,13 +37,13 @@ function openNav() {
   let photo9="pages/Generator/images/IMG_20211013_124447_0.jpg"
   let photo10="pages/Generator/images/IMG_20211013_124655_951.jpg"
   let photo11="pages/Generator/images/IMG_20211013_123103_808.jpg"
-  let photo12="pages/Generator/images/NewPhoto/Copy of IMG_0353.jpg"
-  let photo13="pages/Generator/images/NewPhoto/Copy of IMG_0361.jpg"
-  let photo14="pages/Generator/images/NewPhoto/Copy of IMG_0431.jpg"
+  let photo12="pages/Generator/images/NewPhoto/Copy1.jpg"
+  let photo13="pages/Generator/images/NewPhoto/Copy2.jpg"
+  let photo14="pages/Generator/images/NewPhoto/Copy3.jpg"
   
   
 
-  var Fruits=[photo1,photo2,photo3,photo4,photo5,photo6,photo7,photo8,photo9,photo10,photo11,photo12,photo13,photo14]
+  var Fruits=[photo12,photo13,photo14]
 var e=0
 console.log(Fruits);
 
