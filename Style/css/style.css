@@ -326,7 +326,16 @@
         border-radius: 25px;
     
     }  
-    
+    #project1:hover{
+        background-color: #ced4da;
+      }
+      
+      #project2:hover{
+          background-color: #ced4da;
+        }
+        #project3:hover{
+          background-color: #ced4da;
+        }
 
 
 }
@@ -616,4 +625,27 @@ footer{
 
 }  
 
+#project1{
+    position: relative;
+    bottom: 100px;
+}
+#project2{
+    position: relative;
+    bottom: 70px;
+}
+
+#project1:hover{
+  background-color: #ced4da;
+}
+
+#project2:hover{
+    background-color: #ced4da;
+  }
+  #project3:hover{
+    background-color: #ced4da;
+  }
+}
+.col-sm{
+    background-color: transparent;
+    border: none;
 }
