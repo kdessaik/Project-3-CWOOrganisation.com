@@ -26,24 +26,24 @@ function openNav() {
   NavBar.addEventListener("click",NavBar2)
   closeBar.addEventListener('click',NavBar1)
 
-  let photo1="pages/Generator/images/IMG_20211013_123103_808.jpg"
-  let photo2="pages/Generator/images/IMG_20211013_123110_092.jpg"
-  let photo3="pages/Generator/images/IMG_20211013_123149_905.jpg"
-  let photo4="pages/Generator/images/IMG_20211013_123201_367.jpg"
-  let photo5="pages/Generator/images/IMG_20211013_124648_797.jpg"
-  let photo6="pages/Generator/images/IMG_20211013_124514_217.jpg"
-  let photo7="pages/Generator/images/IMG_20211013_124648_797.jpg"
-  let photo8="pages/Generator/images/IMG_20211013_124709_069.jpg"
-  let photo9="pages/Generator/images/IMG_20211013_124447_0.jpg"
-  let photo10="pages/Generator/images/IMG_20211013_124655_951.jpg"
-  let photo11="pages/Generator/images/IMG_20211013_123103_808.jpg"
-  let photo12="pages/Generator/images/NewPhoto/Copy1.jpg"
-  let photo13="pages/Generator/images/NewPhoto/Copy2.jpg"
-  let photo14="pages/Generator/images/NewPhoto/Copy3.jpg"
+  let photo1="Style/images/photos/NewPhotos/Computer/DSC_0697.JPG"
+  let photo2="Style/images/photos/NewPhotos/Digital/20230331_102856.jpg"
+  let photo3="Style/images/photos/NewPhotos/Tailoring/DSC_0445.JPG"
+  let photo4="Style/images/photos/NewPhotos/Digital/20230331_102802.jpg"
+  let photo5="Style/images/photos/NewPhotos/Digital/20230331_102856.jpg"
+  let photo6="Style/images/photos/NewPhotos/Digital/20230331_102906.jpg"
+  let photo7="Style/images/photos/NewPhotos/Digital/20230331_102834.jpg"
+  let photo8="Style/images/photos/NewPhotos/Computer/fotor_2023-3-28_11_15_42.jpg"
+  let photo9="Style/images/photos/NewPhotos/Computer/fotor_2023-3-28_11_21_47.jpg"
+  let photo10="Style/images/photos/NewPhotos/Computer/DSC_0705.JPG"
+  let photo11="Style/images/photos/NewPhotos/Computer/fotor_2023-3-28_11_17_57.jpg"
+  let photo12="Style/images/photos/NewPhotos/Tailoring/DSC_0451.JPG"
+  let photo13="Style/images/photos/NewPhotos/Tailoring/DSC_0456.JPG"
+  let photo14="Style/images/photos/NewPhotos/Tailoring/DSC_0473.JPG"
   
   
 
-  var Fruits=[photo12,photo13,photo14]
+  var Fruits=[photo1,photo2,photo3,photo4,photo5,photo6,photo7,photo8,photo9,photo10,photo11,photo12,photo13,photo14]
 var e=0
 console.log(Fruits);
 
