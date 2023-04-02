@@ -383,7 +383,7 @@
 #section1 a:hover{
    
     text-decoration: underline;
-    color: rgb(251, 145, 15);
+
 
     
     
@@ -434,7 +434,7 @@ margin-left: 2%;
 .btn1:hover{
     cursor: pointer;
    
-    color: rgb(212, 159, 11);
+    color: #CED4DA;
 }
 .btn2{
    position: relative;
@@ -449,7 +449,7 @@ margin-left: 2%;
 .btn2:hover{
     cursor: pointer;
   
-    color: rgb(212, 159, 11);
+    color: #CED4DA;
 }
 #element1{
     position: relative;
@@ -473,9 +473,9 @@ text-transform: uppercase;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgb(251, 145, 15);
+    background-color:#CED4DA;
     margin: 2%;
-    margin-left: 3%;
+    margin-left: 7%;
     margin-bottom: 100px;
     width: 90%;
     height: 500px;
@@ -499,7 +499,7 @@ font-size: 30px;
 .Description p{
     font-size: 25px;
     width: 80%;
-    color: white;
+    color: black;
 }
 .col-sm{
     padding: 5%;
@@ -520,33 +520,46 @@ font-size: 30px;
     margin-left: 10%;
 }
 .row .col-sm:hover{
-    background-color: rgb(251, 145, 15);
+   
     border-radius: 20%;
     color: white;
 
 }
+.text-center{
+    background-color: #CED4DA;
+    border-radius: 25px;
+}
 #section2{
-    border: 1px solid black;
+    margin-top: 10%;
+
 
 }
 #section2 img{
-    width: 30%;
+    width: 20%;
+    margin: 2%;
+    margin-left: 7%;
+
+}
+#section2 img:hover{
+    box-shadow: 5px 10px 8px 10px #cccccc;
+    border-radius: 25px;
 }
 .colunm{
     display: flex;
     flex-direction: row;
 }
 #section2:hover{
-    color: rgb(251, 145, 15);
-    box-shadow: 5px 10px 8px 10px rgb(251, 145, 15);;
+    color: #CED4DA;
+    box-shadow: 5px 10px 8px 10px #CED4DA;
     
 }
 #section2 h1:hover{
     font-size: 50px;
 }
+
 .colunm img:hover{
-    background-color: rgb(251, 145, 15);
-    box-shadow: 5px 10px 8px 10px rgb(251, 145, 15);
+    background-color: #c3e1ff;
+    box-shadow: 5px 10px 8px 10px #CED4DA;
     margin: 1%;
     cursor:pointer;
 }
@@ -644,6 +657,8 @@ footer{
   #project3:hover{
     background-color: #ced4da;
   }
+
+
 }
 .col-sm{
     background-color: transparent;
