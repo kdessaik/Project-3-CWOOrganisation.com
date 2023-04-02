@@ -310,14 +310,20 @@
         margin-left: 7%;
     } 
     .container-lg{
-        margin-bottom:0px;
-        background-color: #262626;
         
+        background-color: #262626;
+        margin: 2%;
+        margin-bottom: 15%;
+        
+    }
+    .container-lg>iframe{
+        margin-top: 15%;
     }
     .Description>h2{
         text-align: center;
 
     }
+    
     
     #text-center{
         position: relative;
@@ -368,6 +374,11 @@
     #first-logo1{
         display: none;
     }
+
+    #Iframe{
+        position: relative;
+        bottom: 1200px;
+      }
     
 #section1 a{
     text-decoration: none;
@@ -538,18 +549,19 @@ font-size: 30px;
     width: 20%;
     margin: 2%;
     margin-left: 7%;
+    border-radius: 25px;
 
 }
 #section2 img:hover{
     box-shadow: 5px 10px 8px 10px #cccccc;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 .colunm{
     display: flex;
     flex-direction: row;
 }
 #section2:hover{
-    color: #CED4DA;
+    color: black;
     box-shadow: 5px 10px 8px 10px #CED4DA;
     
 }
@@ -657,6 +669,7 @@ footer{
   #project3:hover{
     background-color: #ced4da;
   }
+  
 
 
 }
