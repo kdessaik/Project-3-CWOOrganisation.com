@@ -37,9 +37,60 @@ var imgs33=document.createElement("img")
 var imgs34=document.createElement("img")
 var imgs35=document.createElement("img")
 
+var imgs36=document.createElement("img")
+var imgs37=document.createElement("img")
+var imgs38=document.createElement("img")
+var imgs39=document.createElement("img")
+var imgs40=document.createElement("img")
+var imgs41=document.createElement("img")
+var imgs42=document.createElement("img")
+var imgs43=document.createElement("img")
+
+var imgs44=document.createElement("img")
+var imgs45=document.createElement("img")
+var imgs46=document.createElement("img")
+var imgs47=document.createElement("img")
+var imgs48=document.createElement("img")
+var imgs49=document.createElement("img")
+
+var imgs50=document.createElement("img")
+var imgs51=document.createElement("img")
+var imgs52=document.createElement("img")
+var imgs53=document.createElement("img")
+var imgs54=document.createElement("img")
+var imgs55=document.createElement("img")
+var imgs56=document.createElement("img")
+
 
 function ourPhotos(){
-     
+    imgs36.src="./Generator/images/NewPhotos/Computer/DSC_0697.JPG"
+    imgs37.src="./Generator/images/NewPhotos/Computer/DSC_0705.JPG"
+    imgs38.src="./Generator/images/NewPhotos/Computer/DSC_0707.JPG"
+    imgs39.src="./Generator/images/NewPhotos/Computer/fotor_2023-3-28_11_12_31.jpg"
+    imgs40.src="./Generator/images/NewPhotos/Computer/fotor_2023-3-28_11_15_42.jpg"
+    imgs41.src="./Generator/images/NewPhotos/Computer/fotor_2023-3-28_11_17_57.jpg"
+    imgs42.src="./Generator/images/NewPhotos/Computer/fotor_2023-3-28_11_19_27.jpg"
+    imgs43.src="./Generator/images/NewPhotos/Computer/fotor_2023-3-28_11_20_28.jpg"
+
+   
+
+    imgs44.src="./Generator/images/NewPhotos/Digital/20230331_102802.jpg"
+    imgs45.src="./Generator/images/NewPhotos/Digital/20230331_102834.jpg"
+    imgs46.src="./Generator/images/NewPhotos/Digital/20230331_102840.jpg"
+    imgs47.src="./Generator/images/NewPhotos/Digital/20230331_102856.jpg"
+    imgs48.src="./Generator/images/NewPhotos/Digital/20230331_102901.jpg"
+    imgs49.src="./Generator/images/NewPhotos/Digital/20230331_102906.jpg"
+
+    imgs50.src="./Generator/images/NewPhotos/Tailoring/DSC_0445.JPG"
+    imgs51.src="./Generator/images/NewPhotos/Tailoring/DSC_0451.JPG"
+    imgs52.src="./Generator/images/NewPhotos/Tailoring/DSC_0456.JPG"
+    imgs53.src="./Generator/images/NewPhotos/Tailoring/DSC_0463.JPG"
+    imgs54.src="./Generator/images/NewPhotos/Tailoring/DSC_0468.JPG"
+    imgs55.src="./Generator/images/NewPhotos/Tailoring/DSC_0473.JPG"
+    imgs56.src="./Generator/images/NewPhotos/Tailoring/DSC.JPG"
+    
+
+ 
     imgs.src="./Generator/images/IMG_20211013_123103_808.jpg"
     imgs1.src="./Generator/images/IMG_20211013_123110_092.jpg"
     imgs2.src="./Generator/images/IMG_20211013_123149_905.jpg"
@@ -76,6 +127,33 @@ function ourPhotos(){
     imgs33.src="./Generator/images/NewPhoto/IMG_20210522_110338_079.jpg"
     imgs34.src="./Generator/images/NewPhoto/IMG_20210522_110730_325.jpg"
     imgs35.src="./Generator/images/NewPhoto/IMG_20210522_110836_610.jpg"
+
+    
+    allPhotos.appendChild(imgs36)
+    allPhotos.appendChild(imgs37)
+    allPhotos.appendChild(imgs38)
+    allPhotos.appendChild(imgs39)
+    allPhotos.appendChild(imgs40)
+    allPhotos.appendChild(imgs41)
+    allPhotos.appendChild(imgs42)
+    allPhotos.appendChild(imgs43)
+   
+
+
+
+    allPhotos.appendChild(imgs44)
+    allPhotos.appendChild(imgs45)
+    allPhotos.appendChild(imgs46)
+    allPhotos.appendChild(imgs47)
+    allPhotos.appendChild(imgs48)
+    allPhotos.appendChild(imgs49)
+
+    allPhotos.appendChild(imgs50)
+    allPhotos.appendChild(imgs52)
+    allPhotos.appendChild(imgs53)
+    allPhotos.appendChild(imgs54)
+    allPhotos.appendChild(imgs55)
+    allPhotos.appendChild(imgs56)
     
 
 
@@ -119,3 +197,4 @@ function ourPhotos(){
     
 }
 ourPhotos()
+
